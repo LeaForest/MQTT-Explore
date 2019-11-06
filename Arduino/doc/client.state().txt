@@ -1,0 +1,12 @@
+
+      /* -4：MQTT_CONNECTION_TIMEOUT- 服务器在保持活动时间内没有响应
+         -3：MQTT_CONNECTION_LOST- 网络连接中断
+         -2：MQTT_CONNECT_FAILED- 网络连接失败
+         -1：MQTT_DISCONNECTED- 客户端干净地断开连接
+          0：MQTT_CONNECTED- 客户端已连接
+          1：MQTT_CONNECT_BAD_PROTOCOL- 服务器不支持请求的MQTT版本
+          2：MQTT_CONNECT_BAD_CLIENT_ID- 服务器拒绝了客户端标识符
+          3：MQTT_CONNECT_UNAVAILABLE- 服务器无法接受连接
+          4：MQTT_CONNECT_BAD_CREDENTIALS- 用户名/密码被拒绝
+          5：MQTT_CONNECT_UNAUTHORIZED- 客户端无权连接                       
+       */
